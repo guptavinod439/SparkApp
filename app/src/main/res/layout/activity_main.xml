@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="16dp"
+    android:id="@+id/rootLayout"
+
+
+    android:background="@drawable/background1">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="15dp"
+        android:src="@drawable/appicon"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:ems="1"
+        android:inputType="textEmailAddress"
+        android:hint="UserName"
+        android:background="@drawable/back"
+        android:id="@+id/login_id"
+        android:drawablePadding="78dp"
+        android:textColorHint="#000"
+        android:drawableLeft="@drawable/ic_person_white_24dp"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:padding="16dp"
+        android:ems="1"
+        android:inputType="textPassword"
+        android:hint="......"
+
+        android:id="@+id/login_password"
+        android:textColorHint="#000"
+        android:background="@drawable/back"
+        android:drawablePadding="78dp"
+        android:drawableLeft="@drawable/ic_lock_white_24dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Sign in"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:id="@+id/sign_in_btn"
+        android:background="@drawable/background_login_two"
+        android:paddingLeft="48dp"
+        android:paddingRight="48dp"
+        android:padding="2dp"
+        android:layout_marginTop="26dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_margin="10dp"
+        android:background="#000000" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Log in With Facebook"
+        android:id="@+id/sign_in_btn_fb"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:background="#FF388AEF"
+        android:paddingLeft="48dp"
+        android:paddingRight="48dp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Sign in with Google !!!"
+        android:id="@+id/sign_in_btn_google"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:background="@drawable/googlebtnback"
+        android:paddingLeft="48dp"
+        android:paddingRight="48dp"
+        android:layout_marginTop="16dp"
+        />
+
+    <com.twitter.sdk.android.core.identity.TwitterLoginButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Sign in with Twitter !!!"
+        android:id="@+id/sign_in_btn_Twitter"
+        android:textAllCaps="true"
+        android:textColor="#fff"
+        android:background="@drawable/googlebtnback"
+        android:paddingLeft="48dp"
+        android:paddingRight="48dp"
+        android:layout_marginTop="16dp"
+        />
+
+
+</LinearLayout>

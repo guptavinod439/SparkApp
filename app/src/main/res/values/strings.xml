@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SparkApp</string>
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">wkRBdAZgJjtyfPNOWbAhgQY2r</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">ZGe4QCd3FOkmvSe11sykGveEmRVQ5sz4qKTV5U8niDNarwFEk4</string>
+    <string name="facebook_app_id">2239047303012820</string>
+    <string name="fb_login_protocol_scheme">fb2239047303012820</string>
+</resources>
